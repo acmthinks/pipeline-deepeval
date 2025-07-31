@@ -18,4 +18,4 @@ def test_case():
         retrieval_context=["France is a country in Western Europe."]
     )
 
-assert_test(test_case, [correctness_metric])
+    assert_test(test_case, [correctness_metric])
