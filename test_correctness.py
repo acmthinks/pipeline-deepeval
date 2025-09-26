@@ -14,8 +14,8 @@ test_cases = [
         input="What is the capital of France?",
         # Replace this with the actual output from your LLM application
         actual_output="The capital of France is Paris.",
-        expected_output="Paris is the capital of France. Paris is located along the Seine River.",
-        retrieval_context=["France is a country in Western Europe."]
+        expected_output="The capital of France is Paris.",
+        retrieval_context=["France is a country in Western Europe. Paris is located along the Seine River."]
     )
 ]
 
